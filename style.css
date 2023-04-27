@@ -6,6 +6,25 @@ p {
     color: blue;
 }
 
-#roxo {
-    color: blueviolet;
+.cor {
+    color: red;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+
+i {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30;
+}
+
+body {
+    background-image: url(https://dmhxz00kguanp.cloudfront.net/fotos/129184/papel-de-parede-spots-fundo-azul-1m-x-1-70m-287218.jpg);
 }
