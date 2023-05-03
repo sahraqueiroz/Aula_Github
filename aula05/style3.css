@@ -1,0 +1,32 @@
+body {
+    font-family: Helvetica;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 32px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 3px 3px rgb(115, 126, 158);
+    font-weight: bold;
+    color: black;
+    transition: 2s;
+}
+
+a:hover {
+    background-color: blue;
+}
