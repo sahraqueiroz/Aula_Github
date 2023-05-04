@@ -1,10 +1,13 @@
 body {
-    text-align: center;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2KNdqXJ8bu-CFaxhvEpJhauGtEp3UQD8t6k9kxeta5nLXWXShWTzmY1wbaiJqcOqO4q4&usqp=CAU);
+    background-image: url(https://www.racoesreis.com.br/wordpress/wp-content/uploads/cachorro-origem3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-h2{
-    
+img {
+    border-radius: 100px;
+}
+
+#er {
+    text-align: center;
 }
