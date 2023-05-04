@@ -1,0 +1,15 @@
+table{
+    border: 1px solid black;
+    width: 500px;
+}
+
+th{
+    border: 1px black;
+    background-color: beige;
+    padding: 10px;
+}
+td {
+    border: 1px ;
+    background-color: rgb(204, 212, 216);
+    padding: 10px;
+}
