@@ -23,9 +23,29 @@ main p {
     color: black;
 }
 
-form {
+fieldset {
     display: flex; /* Deixa um elemento do lado do outro de forma flexivel */
-    flex-direction: column; /*Deixa as caixa de escrever em coluna */ 
+    flex-direction: column; /* Deixa as caixa de escrever em coluna */ 
     width: 500px; /* Largura do formulário */
     gap: 10px; /* Espaçamento lateral / top / em baixo */
+}
+
+table {
+    border: 1px solid #161616; /* Definir uma borda para a tabela */
+    width: 600px; /* Definir uma largura para a tabela */ 
+}
+
+th {
+    background-color: rgb(75, 68, 68); /* Definir uma cor de fundo para os títulos da tabela */
+    padding: 10px; /* Espaçamento interno dos títulos */
+}
+
+td {
+    background-color: #b6b6b6; /* Difinir uma cor de fundo para as respostas da tabela */
+    padding: 10px; /*Espaçamento interno das respostas */
+}
+
+footer {
+    border: 1px solid blue;
+    margin-top: 20px; /*Espaçamento externo do footer, parte superior */
 }
