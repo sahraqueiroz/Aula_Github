@@ -1,0 +1,31 @@
+body {
+    background-color: beige; /*Plano de Fundo */
+    font-family: Arial, Helvetica, sans-serif; /* Mudar estilo de fonte */
+}
+
+header {
+    border: 1px solid black; /* Criar uma borda */
+    padding: 10px; /* Espaçamento Interno*/
+    text-align: center; /* Alinhar conteudo no centro */
+}
+
+main {
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 30px; /* Espaçamento externo do topo */
+}
+
+main p {
+    color: blue;
+}
+
+.Preto {
+    color: black;
+}
+
+form {
+    display: flex; /* Deixa um elemento do lado do outro de forma flexivel */
+    flex-direction: column; /*Deixa as caixa de escrever em coluna */ 
+    width: 500px; /* Largura do formulário */
+    gap: 10px; /* Espaçamento lateral / top / em baixo */
+}
